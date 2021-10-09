@@ -665,7 +665,7 @@ nav.navbar.bootsnav ul.nav li.megamenu-fw > a:hover {
         border-top: solid 1px #222;
     }
 }
-.arrow::before {
+/*.arrow::before {
     font-family: "FontAwesome";
     content: "";
     margin-left: 5px;
@@ -676,7 +676,7 @@ nav.navbar.bootsnav ul.nav li.megamenu-fw > a:hover {
     position: absolute;
     right: 10px;
     top: 10px;
-}
+}*/
 .dropdown-toggle::after {
     display: none;
 }
@@ -1928,7 +1928,7 @@ ul.cart-list > li.total > .btn:hover {
 .text-muted {
     padding: 10px 0px;
 }
-.list-group-item[data-toggle="collapse"]::after {
+/*.list-group-item[data-toggle="collapse"]::after {
     width: 0;
     height: 0;
     position: absolute;
@@ -1941,7 +1941,14 @@ ul.cart-list > li.total > .btn:hover {
     transition: transform 0.2s, top 0.2s, -webkit-transform 0.2s;
     font-family: FontAwesome;
     content: "\f105";
+}*/
+
+.arrow-down {
+    transform: translateY(50%);
+    padding-left: 15px;
+    font-size: 13px;
 }
+
 .list-group-tree .list-group-collapse .list-group {
     margin-left: 25px;
     border-left: 1px solid #ced4da;
