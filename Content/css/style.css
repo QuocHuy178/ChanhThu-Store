@@ -190,7 +190,7 @@ p {
     float: left;
     width: 95px;
     margin-right: 16px;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 .custom-select-box .form-control {
     background: none;
@@ -258,9 +258,10 @@ p {
     font-family: "Poppins", sans-serif;
     margin-top: 14px;
 }
+
 .offer-box li {
-    font-weight: 600;
-}
+        font-weight: 600;
+    }
 .offer-box li i {
     margin-right: 15px;
     color: var(--primary-color);
@@ -949,6 +950,7 @@ ul.cart-list > li.total > .btn:hover {
 }
 
 .offer-box {
+    margin-top: 2px;
     position: relative;
     overflow: hidden;
 }

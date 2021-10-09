@@ -335,6 +335,12 @@ namespace ChanhThuStore
 
 
 
+
+
+		[Column] public string Hinh { get; set; }
+
+
+
 	}
 
     

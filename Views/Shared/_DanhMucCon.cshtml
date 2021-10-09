@@ -1,0 +1,11 @@
+﻿@model IEnumerable<ChanhThuStore.DanhMucCon>
+@foreach (var item in Model)
+{
+    <div class="collapse show" id="sub-men1" data-parent="#list-group-men">
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active">@item.TenDanhMucCon <small class="text-muted">(50)</small></a>
+
+        </div>
+    </div>
+
+}
