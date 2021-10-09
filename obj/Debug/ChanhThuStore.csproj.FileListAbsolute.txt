@@ -106,3 +106,7 @@ C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\obj\Debug\ChanhThuStore.csproj
 C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\obj\Debug\ChanhThuStore.csproj.CopyComplete
 C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\obj\Debug\ChanhThuStore.dll
 C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\obj\Debug\ChanhThuStore.pdb
+C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\bin\PagedList.dll
+C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\bin\PagedList.Mvc.dll
+C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\bin\PagedList.xml
+C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\bin\PagedList.Mvc.xml
