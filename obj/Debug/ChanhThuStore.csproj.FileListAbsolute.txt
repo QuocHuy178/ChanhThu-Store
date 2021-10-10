@@ -101,7 +101,6 @@ C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\bin\Microsoft.Owin.Security.Tw
 C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\obj\Debug\ChanhThuStore.csprojAssemblyReference.cache
 C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\obj\Debug\ChanhThuStore.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\obj\Debug\ChanhThuStore.csproj.CopyComplete
 C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\obj\Debug\ChanhThuStore.dll
@@ -110,3 +109,4 @@ C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\bin\PagedList.dll
 C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\bin\PagedList.Mvc.dll
 C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\bin\PagedList.xml
 C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\bin\PagedList.Mvc.xml
+C:\Users\ASUS\Desktop\ChanhThuStore\ChanhThuStore\obj\Debug\ChanhThuStore.csprojAssemblyReference.cache

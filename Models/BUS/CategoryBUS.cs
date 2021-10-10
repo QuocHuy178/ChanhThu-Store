@@ -19,6 +19,10 @@ namespace ChanhThuStore.Models.BUS
             return db.Query<DanhMuc>("select * from DanhMucCon where MaDanhMuc = '" + id + "'");
         }
 
-        
+        public static IEnumerable<DanhMucCon> DanhSachDMC()
+        {
+            var db = new ChanhThuStoreDB();
+            return db.Query<DanhMucCon>("select * from DanhMucCon ");
+        }
     }
 }
