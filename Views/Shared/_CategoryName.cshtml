@@ -7,7 +7,7 @@
                 <button class="active" data-filter="*">Tất cả</button>
                 @foreach (var item in Model)
                 {
-                    <button data-filter=".bulbs">@item.TenDanhMuc</button>
+                    <button data-filter=".@item.MaDanhMuc">@item.TenDanhMuc</button>
                     
                 }
 

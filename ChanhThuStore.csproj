@@ -383,6 +383,7 @@
     <Content Include="Views\Shared\_DanhMuc.cshtml" />
     <Content Include="Views\Shared\_DanhMucCon.cshtml" />
     <Content Include="Views\Shared\_PhanLoaiDanhMuc.cshtml" />
+    <Content Include="Views\Shared\_DanhMucConHinh.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
