@@ -1,6 +1,4 @@
-﻿using ChanhThuStore.Models.BUS;
-using PagedList;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,29 +6,27 @@ using System.Web.Mvc;
 
 namespace ChanhThuStore.Controllers
 {
-    public class ShopController : Controller
+    public class BoSuTapController : Controller
     {
-        // GET: Shop
-        public ActionResult Index(int page=1 ,int pagesize = 1)
+        // GET: BoSuTap
+        public ActionResult Index()
         {
-            var db = ChanhThuStoreBUS.DanhSach().ToPagedList(page,pagesize);
-            return View(db) ;
+            return View();
         }
 
-        // GET: Shop/Details/5
-        public ActionResult Details(String id)
+        // GET: BoSuTap/Details/5
+        public ActionResult Details(int id)
         {
-            var db = ChanhThuStoreBUS.ChiTiet(id);
-            return View(db);
+            return View();
         }
 
-        // GET: Shop/Create
+        // GET: BoSuTap/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Shop/Create
+        // POST: BoSuTap/Create
         [HttpPost]
         public ActionResult Create(FormCollection collection)
         {
@@ -46,13 +42,13 @@ namespace ChanhThuStore.Controllers
             }
         }
 
-        // GET: Shop/Edit/5
+        // GET: BoSuTap/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: Shop/Edit/5
+        // POST: BoSuTap/Edit/5
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
         {
@@ -68,13 +64,13 @@ namespace ChanhThuStore.Controllers
             }
         }
 
-        // GET: Shop/Delete/5
+        // GET: BoSuTap/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: Shop/Delete/5
+        // POST: BoSuTap/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
         {

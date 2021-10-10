@@ -5,7 +5,7 @@ using System.Web;
 
 namespace ChanhThuStore.Models.BUS
 {
-    public class CategoryBUS
+    public class DanhMucBUS
     {
         public static IEnumerable<DanhMuc> DanhSach()
         {
