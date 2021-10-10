@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ChanhThuStore.Models.BUS;
+using PagedList;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -6,27 +8,29 @@ using System.Web.Mvc;
 
 namespace ChanhThuStore.Controllers
 {
-    public class CategoryController : Controller
+    public class CuaHangController : Controller
     {
-        // GET: Category
-        public ActionResult Index()
+        // GET: CuaHang
+        public ActionResult Index(int page=1 ,int pagesize = 1)
         {
-            return View();
+            var db = ChanhThuStoreBUS.DanhSach().ToPagedList(page,pagesize);
+            return View(db) ;
         }
 
-        // GET: Category/Details/5
-        public ActionResult Details(int id)
+        // GET: CuaHang/Details/5
+        public ActionResult Details(String id)
         {
-            return View();
+            var db = ChanhThuStoreBUS.ChiTiet(id);
+            return View(db);
         }
 
-        // GET: Category/Create
+        // GET: CuaHang/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Category/Create
+        // POST: CuaHang/Create
         [HttpPost]
         public ActionResult Create(FormCollection collection)
         {
@@ -42,13 +46,13 @@ namespace ChanhThuStore.Controllers
             }
         }
 
-        // GET: Category/Edit/5
+        // GET: CuaHang/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: Category/Edit/5
+        // POST: CuaHang/Edit/5
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
         {
@@ -64,13 +68,13 @@ namespace ChanhThuStore.Controllers
             }
         }
 
-        // GET: Category/Delete/5
+        // GET: CuaHang/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: Category/Delete/5
+        // POST: CuaHang/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
         {
